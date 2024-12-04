@@ -181,7 +181,7 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
 # Qualcomm Common
-$(call inherit-product, device/qcom/common/common.mk)
+#$(call inherit-product, device/qcom/common/common.mk)
 
 # Rescue Party
 # Disable RescueParty due to high risk of data loss
@@ -209,7 +209,7 @@ endif
 $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 
 # Snapdragon Clang
-$(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
+#$(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
 
 # Telephony - CLO
 PRODUCT_PACKAGES += \
